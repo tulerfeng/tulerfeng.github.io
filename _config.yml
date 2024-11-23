@@ -1,10 +1,10 @@
 # Site settings
-title:       Kaixiong Gong
-email:       kaixionggong@gmail.com
-author:      Kaixiong Gong
-description: "Kaixiong Gong's personal website."
+title:       Kaituo Feng
+email:       kaituofeng@gmail.com
+author:      Kaituo Feng
+description: "Kaituo Feng's personal website."
 baseurl:     ""
-url:         "http://kxgong.github.io"
+url:         "http://tulerfeng.github.io"
 date_format: "%b %-d, %Y"
 
 # Google services
@@ -42,7 +42,7 @@ facebook_appid:
 facebook_comments_number: 10
 
 # Social icons
-github_username: kxgong
+github_username: tulerfeng
 bitbucket_username:
 stackoverflow_id:
 twitter_username: 
