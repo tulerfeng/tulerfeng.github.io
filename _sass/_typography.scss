@@ -1,0 +1,41 @@
+html {
+  font-size: $base-font-size;
+  font-weight: $base-font-weight;
+}
+
+abbr {
+  border-bottom: $abbr-border-bottom;
+  cursor: help;
+}
+
+p {
+  color: #333;
+  line-height: 1.4;
+  font-size: 16px;
+}
+
+p.authors {
+  font-weight: 300;
+}
+
+h1 {
+    font-weight: 300;
+    color: #1a1a1a;
+}
+
+small,
+.small {
+  font-size: 0.707rem;
+}
+
+sup {
+  position: relative;
+  vertical-align: middle;
+  top: -0.9ex;
+}
+
+.heading {
+
+  font-size: 1.1em;
+  font-weight: 500;
+}
