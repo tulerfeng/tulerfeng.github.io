@@ -1,0 +1,109 @@
+# Theme (Minimal Mistakes, horseee.github.io style)
+remote_theme: "mmistakes/minimal-mistakes@4.26.2"
+minimal_mistakes_skin: "default"
+
+# Site
+locale: "en-US"
+title: "Kaituo Feng"
+title_separator: "-"
+subtitle: ""
+name: "Kaituo Feng"
+description: "Kaituo Feng's personal website."
+email: kaituofeng@gmail.com
+url: "https://tulerfeng.github.io"
+baseurl: ""
+repository: "tulerfeng/tulerfeng.github.io"
+
+search: false
+search_full_content: false
+words_per_minute: 200
+
+# Author (left sidebar)
+author:
+  name: "Kaituo Feng"
+  avatar: "/images/me.png"
+  bio: "PhD student@MMLab, CUHK"
+  location: "Hong Kong"
+  links:
+    - label: "kaituofeng@gmail.com"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:kaituofeng@gmail.com"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://x.com/KaituoFeng"
+    - label: "Google Scholar"
+      icon: "fas fa-fw fa-graduation-cap"
+      url: "https://scholar.google.com/citations?user=m1iCh00AAAAJ&hl=en"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/tulerfeng"
+
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/tulerfeng"
+
+# Analytics (replaces inline gtag in old index)
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "G-9NY2CVV92L"
+    anonymize_ip: false
+
+# 在主题 main.min.js 之后执行，移除标题旁的 Permalink 锚点
+after_footer_scripts:
+  - /assets/js/strip-header-links.js
+
+# Reading / build
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+date_format: "%b %-d, %Y"
+
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  toc_levels: 1..6
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+  - jekyll-include-cache
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-sitemap
+  - jekyll-remote-theme
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: false
+      share: false
+      related: false
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+
+exclude:
+  - vendor
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - README.nitrous.md
+  - nitrous.json

@@ -1,0 +1,178 @@
+/*
+ * 顶栏已由 _includes/masthead.html 空文件覆盖，不再输出 HTML。
+ * 以下用于去掉主题为固定导航预留的留白，并兜底隐藏 Permalink。
+ */
+
+body {
+  padding-top: 0 !important;
+  margin-top: 0 !important;
+}
+
+.initial-content {
+  padding-top: 0 !important;
+  margin-top: 0 !important;
+}
+
+#main {
+  padding-top: 0 !important;
+  margin-top: 0 !important;
+}
+
+/* 兜底：若缓存里仍有 masthead 节点 */
+.masthead {
+  display: none !important;
+  height: 0 !important;
+  overflow: hidden !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+}
+
+/* Home: 隐藏文章内空标题区 */
+body.home-splash .page__inner-wrap > header {
+  display: none !important;
+}
+
+/* JS 注入的标题锚点 + 文本兜底隐藏 */
+.page__content .header-link,
+.page__content a.header-link {
+  display: none !important;
+  width: 0 !important;
+  height: 0 !important;
+  overflow: hidden !important;
+  clip: rect(0, 0, 0, 0) !important;
+  position: absolute !important;
+}
+
+/*
+ * 头像：与下方姓名、简介左对齐（不要用 margin:auto 居中，否则会相对整栏偏右）。
+ */
+.sidebar .h-card {
+  text-align: left !important;
+}
+
+.sidebar .author__avatar {
+  text-align: left !important;
+}
+
+.sidebar .author__avatar a {
+  display: block !important;
+  width: 180px !important;
+  height: 180px !important;
+  max-width: 100% !important;
+  margin-left: 0 !important;
+  margin-right: auto !important;
+  border-radius: 50% !important;
+  overflow: hidden !important;
+  line-height: 0 !important;
+  box-sizing: border-box !important;
+}
+
+.sidebar .author__avatar img {
+  width: 100% !important;
+  height: 100% !important;
+  max-width: none !important;
+  min-width: 0 !important;
+  object-fit: cover !important;
+  object-position: center center !important;
+  display: block !important;
+}
+
+/*
+ * 侧栏作者区：主题在 @media (min-width: 64em) 下对 .sidebar 使用 opacity: 0.75，:hover 才到 1。
+ * 必须在同一断点内覆盖，并关闭 transition，否则仍会「灰 → 深」。
+ */
+$sidebar-text: #3d4144;
+
+@media (min-width: 64em) {
+  #main .sidebar,
+  #main .sidebar.sticky {
+    opacity: 1 !important;
+    -webkit-transition: none !important;
+    transition: none !important;
+  }
+
+  #main .sidebar:hover,
+  #main .sidebar.sticky:hover {
+    opacity: 1 !important;
+  }
+}
+
+.sidebar {
+  opacity: 1 !important;
+}
+
+.sidebar:hover {
+  opacity: 1 !important;
+}
+
+.sidebar .author__name,
+.sidebar .author__name a,
+.sidebar .author__bio,
+.sidebar .author__bio p,
+.sidebar .h-card li,
+.sidebar .h-card li span,
+.sidebar .author__urls a,
+.sidebar .author__urls .label {
+  color: $sidebar-text !important;
+}
+
+.sidebar .author__name a:hover,
+.sidebar .author__name a:focus,
+.sidebar .author__urls a:hover,
+.sidebar .author__urls a:focus {
+  color: $sidebar-text !important;
+}
+
+.sidebar .author__urls i,
+.sidebar .h-card .fa-fw {
+  color: $sidebar-text !important;
+}
+
+.sidebar .author__urls a:hover i {
+  color: $sidebar-text !important;
+}
+
+/*
+ * About / Honors：略小字号，接近 AcademicPages 类站点（如 jf-d.github.io）正文观感
+ */
+.page__content .body-text-compact {
+  font-size: 0.9rem;
+  line-height: 1.65;
+}
+
+.page__content .body-text-compact h2 {
+  font-size: 1.35rem;
+  margin-top: 0;
+  margin-bottom: 0.65em;
+}
+
+.page__content .body-text-compact p,
+.page__content .body-text-compact ul,
+.page__content .body-text-compact li {
+  font-size: inherit;
+}
+
+.page__content .body-text-compact ul {
+  margin-top: 0.35em;
+}
+
+.page__content .publications-table + .body-text-compact {
+  margin-top: 2rem;
+}
+
+/* Publications */
+.publications-table {
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  h4 {
+    margin-top: 0;
+  }
+
+  tr + tr td {
+    padding-top: 1.25em;
+  }
+}

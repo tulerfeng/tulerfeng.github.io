@@ -1,0 +1,14 @@
+{
+    "terminal.integrated.env.osx": {
+        "LC_ALL": "en_US.UTF-8",
+        "LANG": "en_US.UTF-8"
+    },
+    "spellright.language": [
+        "en"
+    ],
+    "spellright.documentTypes": [
+        "markdown",
+        "latex",
+        "plaintext"
+    ]
+}

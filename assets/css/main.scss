@@ -1,0 +1,10 @@
+---
+# 必须存在本文件并 @import "custom"，否则 _sass/custom.scss 不会进入最终 main.css（remote_theme 仅用主题预编译 CSS 时）
+search: false
+---
+
+@charset "utf-8";
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
+@import "minimal-mistakes";
+@import "custom";
