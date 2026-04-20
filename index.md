@@ -59,7 +59,7 @@ My research interests include Agentic AI, MLLMs and AIGC. Welcome for discussion
         <p><a href=""><span style="color:#c62828;">NeurIPS 2025</span></a></p>
         <p><strong>Kaituo Feng</strong>, Kaixiong Gong, Bohao Li, Zonghao Guo, Yibing Wang, Tianshuo Peng, Junfei Wu, Xiaoying Zhang, Benyou Wang, Xiangyu Yue</p>
         <p>Explore the R1 paradigm for eliciting video reasoning within MLLMs.</p>
-        <p><a href="https://www.paperdigest.org/2026/03/most-influential-nips-papers-2026-03-version/" style="text-decoration:none;"><span style="color: rgb(180, 40, 40); text-decoration:underline;">NeurIPS 2025 Most Influential Paper Top 10</span></a></p>
+        <p><a href="https://www.paperdigest.org/2026/03/most-influential-nips-papers-2026-03-version/" style="text-decoration:none;"><span style="color: rgb(180, 40, 40); text-decoration:underline; font-weight:700;">NeurIPS 2025 Most Influential Paper Top 10</span></a></p>
         <p>
           <a href="https://arxiv.org/abs/2503.21776" class="btn btn--primary">Paper</a>
           <a href="https://github.com/tulerfeng/Video-R1" class="btn btn--primary">Code</a>
