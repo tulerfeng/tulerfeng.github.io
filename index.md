@@ -10,7 +10,7 @@ classes:
 
 ## About me {#about-me}
 
-I am a first-year PhD student at [Multimedia Lab (MMLab)](https://mmlab.ie.cuhk.edu.hk/) in the Chinese University of Hong Kong, working with [Prof. Xiangyu Yue](https://xyue.io/). Previously, I was a master student at Beijing Institute of Technology (BIT), advised by Prof. Changsheng Li (2022-2025). I also received my Bachelor's degree in Computer Science from BIT (2018 - 2022). I have published several papers in top conferences or journals, such as ICML, ICLR, NeurIPS, CVPR, KDD, ACL, IEEE TIP, IEEE TKDE, IEEE TPAMI, etc. I also interned at [ByteDance Seed](https://seed.bytedance.com/), working on foundation models.
+I am a second-year PhD student at [Multimedia Lab (MMLab)](https://mmlab.ie.cuhk.edu.hk/) in the Chinese University of Hong Kong, working with [Prof. Xiangyu Yue](https://xyue.io/). Previously, I was a master student at Beijing Institute of Technology (BIT), advised by Prof. Changsheng Li (2022-2025). I also received my Bachelor's degree in Computer Science from BIT (2018 - 2022). I have published several papers in top conferences or journals, such as ICML, ICLR, NeurIPS, CVPR, KDD, ACL, IEEE TIP, IEEE TKDE, IEEE TPAMI, etc. I also interned at [ByteDance Seed](https://seed.bytedance.com/), working on foundation models.
 
 My research interests include Agentic AI, MLLMs and AIGC. Welcome for discussion and collaboration, feel free to drop me an email.
 
@@ -26,7 +26,7 @@ My research interests include Agentic AI, MLLMs and AIGC. Welcome for discussion
       </td>
       <td style="width:65%; vertical-align:middle;">
         <h4 style="margin-top:0;">Gen-Searcher: Reinforcing Agentic Search for Image Generation</h4>
-        <p><a href=""><span style="color:#c62828;">arXiv 2026</span></a></p>
+        <p><a href=""><span style="color:#c62828;">NeurIPS 2026</span></a></p>
         <p><strong>Kaituo Feng</strong>, Manyuan Zhang, Shuang Chen, Yunlong Lin, Kaixuan Fan, Yilei Jiang, Hongyu Li, Dian Zheng, Chenyang Wang, Xiangyu Yue</p>
         <p>First work to explore training a deep research agent for generation.</p>
         <p>
